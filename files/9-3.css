@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.coloredDiv {
+    background-color: #0E0E0E;
+}
+
+.heaerAndMainGap {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.menu {
+    display: none;
+}
+
+.navAStyles {
+    text-decoration: none;
+    color: #7B7B7B;
+    font-size: 16px;
+}
+
+.navAStyles:hover {
+    color: #fff
+}
+
+.navAStyles:focus {
+    color: #fff;
+}
+
+.user {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.userSpan {
+    color: #fff;
+    font-size: 16px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.divWithBackgroundImg {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/batMan.svg"), url("../images/backgroundImg.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    max-width: 840px;
+    width: 100%;
+    gap: 91px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.backgroundsFirstText {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.spanAndStars {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.monthsMove {
+    color: #7B7B7B;
+    font-size: 16px;
+}
+
+.batMan {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.secondPartWithButton {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 355px;
+    width: 100%;
+}
+
+.onlyText {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.onlySpans {
+    display: flex;
+    gap: 12px;
+}
+
+.span {
+    color: #fff;
+    font-size: 16px;
+}
+
+.spanAboutBatMan {
+    color: #7B7B7B;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.orangeButton {
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px 32px;
+    background-color: #A00;
+    box-shadow: 5px 2px 11.9px 0px #A00;
+    max-width: 40%;
+}
+
+.textAndForm {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.RecommendedH2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    gap: 16px;
+}
+
+.formsDiv {
+    display: flex;
+    gap: 16px;
+}
+
+.searchInput {
+    background-image: url("../images/search.svg");
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: left center;
+    padding: 8px 16px 8px 12px;
+    background-color: #191919;
+    border-radius: 24px;
+    border: none;
+    color: #fff;
+}
+
+.searchInput:focus {
+    border: 1px solid #A00;
+    outline: none; 
+}
+
+::placeholder {
+    padding-left: 15px;
+}
+
+.yearsSelect {
+    padding: 8px 12px 8px 16px;
+    background-color: #191919;
+    border-radius: 24px;
+    border: none;
+    color: #7B7B7B;
+}
+
+option {
+    padding: 10px 16px;
+    font-size: 14px;
+    color: #666;
+}
+
+option:hover {
+    background-color: #818181;
+    color: #fff;
+}
+
+.yearsSelect option:hover {
+    background-color: #818181;
+    border-radius: 24px;
+}
+
+.filmsBigDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 104px;
+}
+
+.filmsRow {
+    display: flex;
+    gap: 24px;
+    height: 219px;
+    width: 80vw;
+}
+
+.imageDiv {
+    background-image: none, url("../images/firstFilm.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.imageDiv:hover {
+    background-image: url("../images/Frame\ 65.svg"), url("../images/firstFilm.svg");
+}
+
+.secondImageDiv {
+    background-image: none, url("../images/secondFilm.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.secondImageDiv:hover {
+    background-image: url("../images/Frame\ 65.svg"), url("../images/secondFilm.svg");
+}
+
+.thirdImageDiv {
+    background-image: none, url("../images/thirdFilm.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.thirdImageDiv:hover {
+    background-image: url("../images/Frame\ 65.svg"), url("../images/thirdFilm.svg");
+}
+
+.forthImageDiv {
+    background-image: none, url("../images/forthFilm.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.forthImageDiv:hover {
+    background-image: url("../images/Frame\ 65.svg"), url("../images/forthFilm.svg");
+}
+
+.imgDiv {
+    background-image: none, url("../images/secondRowFirstFilm.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.imgDiv:hover {
+    background-image: url("../images/Frame\ 65.svg"), url("../images/secondRowFirstFilm.svg");
+}
+
+.secondImgDiv {
+    background-image: none, url("../images/secondRowSecondFilm.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.secondImgDiv:hover {
+    background-image: url("../images/Frame\ 65.svg"), url("../images/secondRowSecondFilm.svg");
+}
+
+.thirdImgDiv {
+    background-image: none, url("../images/secondRowThirdFilm.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.thirdImgDiv:hover {
+    background-image: url("../images/Frame\ 65.svg"), url("../images/secondRowThirdFilm.svg");
+}
+
+.forthImgDiv {
+    background-image: none, url("../images/secondRowForthFilm.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.forthImgDiv:hover {
+    background-image: url("../images/Frame\ 65.svg"), url("../images/secondRowForthFilm.svg");
+}
+
+.imgColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.imgColumn {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .divWithBackgroundImg {
+        padding-bottom: 0;
+        background-image: none, url("../images/backgroundImg.svg");
+        padding-left: 16px;
+        padding-top: 24px;
+    }
+
+    form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .filmsRow {
+        flex-direction: column;
+    }
+
+    .imgColumn {
+        display: flex;
+        width: 90vw;
+    }
+
+    .filmsRow {
+        display: none;
+    }
+
+    .textAndForm {
+        width: 90vw;
+    }
+
+    .yearsSelect {
+        flex-grow: 1;
+    }
+
+    .header {
+        width: 100vw;
+    }
+}
